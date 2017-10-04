@@ -1,0 +1,122 @@
+body,
+footer,
+h1,
+h3,
+header,
+p,
+section {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #2c2924 url("http://js.trip.cmbchina.com/static/platinum_card/bg.jpg") no-repeat top center;
+  font: 12px Arial, Microsoft Yahei, sans-serif;
+}
+.header-wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+.header-wrap .nav {
+  height: 60px;
+  background: linear-gradient(#f8001a, #c80015);
+}
+.header-wrap .nav .logo {
+  width: 150px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+}
+.header-wrap .nav .header-icon {
+  width: 100px;
+  height: 60px;
+  line-height: 90px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px #b50013;
+  cursor: pointer;
+}
+.header-wrap .nav .header-icon:hover {
+  color: #f7001a;
+  background: linear-gradient(#f8f8f8, #c0c0c0);
+  text-shadow: none;
+}
+.header-wrap .tips {
+  margin-top: 1px;
+  height: 30px;
+  background-color: #ffcc00;
+  text-align: center;
+  line-height: 30px;
+}
+.header-wrap .describe {
+  position: relative;
+  margin-top: 220px;
+  padding: 10px 24px;
+  color: #fff;
+  font-size: 14px;
+  background: url(http://js.trip.cmbchina.com/static/platinum_card/filter.png) repeat;
+}
+.header-wrap .describe p {
+  display: inline-block;
+}
+.header-wrap .describe .signin {
+  position: absolute;
+  bottom: 10px;
+  right: 24px;
+  background-color: #a68145;
+  width: 230px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+.header-wrap .slider {
+  height: 320px;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+}
+.header-wrap .slider img {
+  width: 100%;
+}
+.header-wrap .slider .hotel-name {
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 280px;
+  left: 15px;
+}
+.header-wrap .slider .hotel-intro {
+  width: 270px;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header-wrap .slider .hotel-intro .intro-bg {
+  width: 270px;
+  height: 320px;
+  background-color: #000;
+  opacity: 0.5;
+}
+.header-wrap .slider .hotel-intro .h-name {
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  width: 200px;
+  height: 25px;
+  position: absolute;
+  top: 65px;
+  left: 20px;
+}
+.header-wrap .slider .hotel-intro .h-intro {
+  color: #fff;
+  line-height: 22px;
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}

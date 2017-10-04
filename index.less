@@ -1,0 +1,141 @@
+body,
+footer,
+h1,
+h3,
+header,
+p,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2c2924 url("http://js.trip.cmbchina.com/static/platinum_card/bg.jpg") no-repeat top center;
+    font: 12px Arial,Microsoft Yahei,sans-serif;
+}
+
+.header-wrap {
+    margin: 0 auto;
+    width: 1000px;
+
+    .nav {
+        height: 60px;
+        background: linear-gradient(#f8001a, #c80015);
+
+        .logo {
+            width: 150px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 60px;
+            display: inline-block;
+        }
+
+        .header-icon {
+            width: 100px;
+            height: 60px;
+            line-height: 90px;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 1px #b50013;
+            cursor: pointer;
+
+            &:hover {
+                color: #f7001a;
+                background: linear-gradient(#f8f8f8, #c0c0c0);
+                text-shadow: none;
+            }
+        }
+
+    }
+
+    .tips {
+        margin-top: 1px;
+        height: 30px;
+        background-color: #ffcc00;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .describe {
+        position: relative;
+        margin-top: 220px;
+        padding: 10px 24px;
+        color: #fff;
+        font-size: 14px;
+        background: url(http://js.trip.cmbchina.com/static/platinum_card/filter.png) repeat;
+
+        p {
+            display: inline-block;
+        }
+
+        .signin {
+            position: absolute;
+            bottom: 10px;
+            right: 24px;
+            background-color: #a68145;
+            width: 230px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+        }
+    }
+
+    .slider {
+        height: 320px;
+        border: 10px solid #fff;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .hotel-name {
+            height: 20px;
+            color: #fff;
+            font-size: 14px;
+            position: absolute;
+            top: 280px;
+            left: 15px;
+        }
+
+        .hotel-intro {
+            width: 270px;
+            height: 320px;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            .intro-bg {
+                width: 270px;
+                height: 320px;
+                background-color: #000;
+                opacity: 0.5;
+            }
+
+            .h-name {
+                font-size: 18px;
+                font-weight: normal;
+                color: #fff;
+                width: 200px;
+                height: 25px;
+                position: absolute;
+                top: 65px;
+                left: 20px;
+            }
+
+            .h-intro {
+                // font-size: 12px;
+                color: #fff;
+                line-height: 22px;
+                width: 200px;
+                position: absolute;
+                top: 100px;
+                left: 20px;
+            }
+        }
+    }
+}
